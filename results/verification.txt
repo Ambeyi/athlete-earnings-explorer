@@ -1,0 +1,5 @@
+Verified 25 October 2026
+All four automated test cases passed using synthetic fixtures.
+CLI executed on the 301-row Posit source dataset.
+All 30 annual counts, totals and means match an independent standard-library CSV aggregation.
+Sport and rank appearance counts each sum to 301.
