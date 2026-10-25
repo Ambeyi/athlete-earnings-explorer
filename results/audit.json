@@ -1,0 +1,18 @@
+{
+  "rows": 301,
+  "unique_athlete_names": 82,
+  "year_min": 1990,
+  "year_max": 2020,
+  "observed_years": 30,
+  "missing_years": [
+    2001
+  ],
+  "sport_labels": 20,
+  "duplicate_athlete_years": 0,
+  "previous_year_rank_missing": 24,
+  "years_not_ten_records": {
+    "2002": 11
+  },
+  "earnings_unit": "Source code labels values as millions; currency and measurement definitions unverified.",
+  "interpretation": "Descriptive summaries of supplied ranking records, not all professional athletes."
+}
