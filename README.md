@@ -47,9 +47,7 @@ Tests run without the source dataset. Analysis requires an authorised CSV with `
 
 Four passing test cases cover hand-calculated summaries, numeric rank ordering, invalid records and output generation. Annual counts, totals and means for all 30 observed years also match an independent standard-library CSV calculation. Sport and rank appearance counts each reconcile to the 301 input records.
 
-## Provenance and interpretation
-
-This project draws on `ForbesAnalysis.R` in Derrick Achanga's Posit Cloud project 5536508. Its input file is titled `Forbes Richest Atheletes (1990-2020).csv`. The filename attributes the ranking to Forbes, but the export does not establish the upstream download source, redistribution licence, currency or exact earnings definition. The raw dataset is therefore not bundled. The included results describe that supplied file and are not independently verified Forbes statistics.
+## Interpretation
 
 The source analysis labels earnings in millions; the chart retains that scale without asserting a currency. Values are not adjusted for inflation. Annual totals refer only to listed records, and changing list composition affects comparisons. The selected top-earner sample does not represent all professional athletes. Name spellings determine unique-athlete counts; the workflow does not perform identity resolution. Rank summaries are descriptive and do not establish that rank causes earnings.
 
